@@ -1,0 +1,88 @@
+# =========================
+# Python
+# =========================
+
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# =========================
+# Environment variables
+# =========================
+
+.env
+.env.*
+!.env.example
+
+# =========================
+# Chroma database
+# =========================
+
+backend/data/chroma/*
+!backend/data/chroma/.gitkeep
+
+# =========================
+# Uploaded documents
+# =========================
+
+backend/data/uploads/*
+!backend/data/uploads/.gitkeep
+
+# =========================
+# Python cache
+# =========================
+
+.pytest_cache/
+.mypy_cache/
+
+# =========================
+# Node
+# =========================
+
+node_modules/
+frontend/node_modules/
+
+# Vite
+frontend/dist/
+
+# =========================
+# Logs
+# =========================
+
+*.log
+
+# =========================
+# OS files
+# =========================
+
+.DS_Store
+Thumbs.db
+
+# =========================
+# IDE
+# =========================
+
+.vscode/
+.idea/
+
+# =========================
+# Model files
+# =========================
+
+*.pt
+*.pth
+*.onnx
+*.bin
+*.safetensors
+
+# =========================
+# Temporary files
+# =========================
+
+*.tmp
+*.temp
